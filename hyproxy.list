@@ -1,5 +1,5 @@
 # hyproxy.list (General Proxy)
-# 更新时间: 2026-01-05 06:26:27
+# 更新时间: 2026-01-06 06:27:48
 # 规则总数: 94
 # 策略: PROXY (Pure Domain)
 HOST, ai.google.dev, proxy
