@@ -1,9 +1,10 @@
-name: Update Proxy Rules Only
+name: Auto Update Adult Rules
 
 on:
   schedule:
-    # 北京时间每天早上 06:00
+    # 北京时间每天早上 06:00 (UTC 22:00)
     - cron: '0 22 * * *'
+  # 允许你手动点击 "Run workflow" 按钮立即测试
   workflow_dispatch:
 
 permissions:
@@ -26,19 +27,24 @@ jobs:
       run: |
         pip install requests pytz
         
-    # ❌ 已删除运行 main.py 的步骤
-      
-    # ✅ 只运行代理脚本
-    - name: Build Proxy Lists
+    - name: Run Script
+      # ⚠️ 注意：请确保你的 Python 脚本文件名真的是 main_proxy.py
+      # 如果你的脚本叫 main.py，请把下面这行改成 python main.py
       run: python main_proxy.py
       
     - name: Commit and push
       run: |
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
-        # 只提交 main_proxy.py 生成的那两个文件
-        git add hyproxy.list hyhk.list
-        # 如果有 hydirect.list 残留，也可以顺手删了(可选)
-        # git rm hydirect.list || true 
-        git commit -m "Auto-update proxy rules" || exit 0
-        git push -f origin main
+        
+        # 1. 尝试添加我们生成的 hyhk.list
+        git add hyhk.list
+        
+        # 2. 如果之前有 hyproxy.list 残留，把它从 Git 记录里删掉，防止报错
+        git rm hyproxy.list --ignore-unmatch || true
+        
+        # 3. 提交。如果没有变化 (exit 0) 则不报错
+        git commit -m "Auto-update: Update hyhk.list" || exit 0
+        
+        # 4. 推送
+        git push origin main
