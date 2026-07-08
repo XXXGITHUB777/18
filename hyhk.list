@@ -1,34 +1,25 @@
 # hyhk.list (Adult Content Combined)
-# 更新时间: 2026-07-08 07:07:01
-# 规则总数: 110
+# 更新时间: 2026-07-09 07:14:45
+# 规则总数: 82
 # 策略: Adult18
 # 包含源: Blackmatrix7, Repcz, Manual
-HOST-KEYWORD, img.cc, Adult18
-HOST-KEYWORD, porn, Adult18
 HOST-SUFFIX, 18comic.org, Adult18
 HOST-SUFFIX, 18comic.vip, Adult18
 HOST-SUFFIX, 4hu.tv, Adult18
 HOST-SUFFIX, 52av.one, Adult18
-HOST-SUFFIX, 8teenxxx.com, Adult18
 HOST-SUFFIX, 91porn.com, Adult18
 HOST-SUFFIX, 91porna.com, Adult18
 HOST-SUFFIX, 91porny.com, Adult18
 HOST-SUFFIX, 91short.com, Adult18
-HOST-SUFFIX, ahcdn.com, Adult18
 HOST-SUFFIX, akabeesoft2.com, Adult18
 HOST-SUFFIX, akabeesoft3.com, Adult18
 HOST-SUFFIX, akatsukiworks.com, Adult18
 HOST-SUFFIX, alicesoft.com, Adult18
 HOST-SUFFIX, api-p.videomarket.jp, Adult18
 HOST-SUFFIX, avple.tv, Adult18
-HOST-SUFFIX, bcvcdn.com, Adult18
 HOST-SUFFIX, beeg.com, Adult18
-HOST-SUFFIX, bongacams.com, Adult18
-HOST-SUFFIX, booth.pm, Adult18
 HOST-SUFFIX, cableav.tv, Adult18
-HOST-SUFFIX, chaturbate.com, Adult18
 HOST-SUFFIX, cosmiccute.com, Adult18
-HOST-SUFFIX, dditscdn.com, Adult18
 HOST-SUFFIX, ddo.jp, Adult18
 HOST-SUFFIX, dmm-extension.com, Adult18
 HOST-SUFFIX, dmm.co.jp, Adult18
@@ -40,7 +31,6 @@ HOST-SUFFIX, e-hentai.org, Adult18
 HOST-SUFFIX, ehgt.org, Adult18
 HOST-SUFFIX, eporner.com, Adult18
 HOST-SUFFIX, exhentai.org, Adult18
-HOST-SUFFIX, fanbox.cc, Adult18
 HOST-SUFFIX, h5ajcc.com, Adult18
 HOST-SUFFIX, hentai-foundry.com, Adult18
 HOST-SUFFIX, hentaiera.com, Adult18
@@ -61,7 +51,6 @@ HOST-SUFFIX, javmenu.com, Adult18
 HOST-SUFFIX, javmost.com, Adult18
 HOST-SUFFIX, javmost.xyz, Adult18
 HOST-SUFFIX, jmcomic.mic, Adult18
-HOST-SUFFIX, livejasmin.com, Adult18
 HOST-SUFFIX, madou.club, Adult18
 HOST-SUFFIX, manhuapica.com, Adult18
 HOST-SUFFIX, minnanana.net, Adult18
@@ -70,31 +59,17 @@ HOST-SUFFIX, missav.ai, Adult18
 HOST-SUFFIX, missav.com, Adult18
 HOST-SUFFIX, missav.live, Adult18
 HOST-SUFFIX, missav.ws, Adult18
-HOST-SUFFIX, mushroomtrack.com, Adult18
 HOST-SUFFIX, navismithapis-cdn.com, Adult18
 HOST-SUFFIX, netflav.com, Adult18
 HOST-SUFFIX, netflav5.com, Adult18
 HOST-SUFFIX, nhentai.net, Adult18
 HOST-SUFFIX, njav.com, Adult18
 HOST-SUFFIX, njav.tv, Adult18
-HOST-SUFFIX, phncdn.com, Adult18
-HOST-SUFFIX, phprcdn.com, Adult18
 HOST-SUFFIX, picacg.com, Adult18
 HOST-SUFFIX, pigav.com, Adult18
-HOST-SUFFIX, pixiv.cat, Adult18
-HOST-SUFFIX, pixiv.co.jp, Adult18
-HOST-SUFFIX, pixiv.me, Adult18
-HOST-SUFFIX, pixiv.net, Adult18
-HOST-SUFFIX, pixiv.org, Adult18
-HOST-SUFFIX, pornhub.com, Adult18
-HOST-SUFFIX, pornhubpremium.com, Adult18
 HOST-SUFFIX, pururin.io, Adult18
-HOST-SUFFIX, pximg.net, Adult18
-HOST-SUFFIX, rdtcdn.com, Adult18
 HOST-SUFFIX, redtube.com, Adult18
-HOST-SUFFIX, sb-cd.com, Adult18
 HOST-SUFFIX, sezse.com, Adult18
-HOST-SUFFIX, spankbang.com, Adult18
 HOST-SUFFIX, supjav.com, Adult18
 HOST-SUFFIX, t66y.com, Adult18
 HOST-SUFFIX, tenco.cc, Adult18
@@ -107,9 +82,6 @@ HOST-SUFFIX, wheel-soft.com, Adult18
 HOST-SUFFIX, wnacg.com, Adult18
 HOST-SUFFIX, wnacg.org, Adult18
 HOST-SUFFIX, xhamster.com, Adult18
-HOST-SUFFIX, xnxx-cdn.com, Adult18
-HOST-SUFFIX, xnxx.com, Adult18
 HOST-SUFFIX, xvideos-cdn.com, Adult18
 HOST-SUFFIX, xvideos.com, Adult18
 HOST-SUFFIX, youporn.com, Adult18
-HOST-SUFFIX, ypncdn.com, Adult18
